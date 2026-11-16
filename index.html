@@ -1,0 +1,2259 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <script>document.documentElement.classList.add('js')</script>
+
+  <!-- ===== SEO principal ===== -->
+  <title>Remorquage Tunis 24/24 · Dépanneuse Grand Tunis | Remorquage Privé</title>
+  <meta name="description" content="Remorquage Tunis &amp; dépannage voiture Ariana, Manouba, Ben Arous 24h/24 7j/7. SOS remorquage en moins de 30 min depuis 4 bases. Appelez le +216 50 085 021.">
+  <meta name="keywords" content="remorquage tunis, dépannage voiture ariana, sos remorquage ben arous, remorquage manouba 24/24, dépanneuse grand tunis, remorquage moto tunis, dépannage auto 24h/24 tunisie">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Remorquage Privé 24/24 7/7">
+  <link rel="canonical" href="https://www.remorquage-prive.tn/">
+  <link rel="alternate" hreflang="fr-TN" href="https://www.remorquage-prive.tn/">
+  <meta name="theme-color" content="#0B1120">
+  <meta name="format-detection" content="telephone=yes">
+
+  <!-- ===== SEO local ===== -->
+  <meta name="geo.region" content="TN-11">
+  <meta name="geo.placename" content="Grand Tunis (Tunis, Ariana, Manouba, Ben Arous)">
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_TN">
+  <meta property="og:site_name" content="Remorquage Privé 24/24 7/7">
+  <meta property="og:title" content="Remorquage &amp; Dépannage Auto/Moto 24h/24 – Grand Tunis">
+  <meta property="og:description" content="Panne ou accident ? Dépanneuse en moins de 30 min à Tunis, Ariana, Manouba et Ben Arous. 4 bases, tarifs transparents. ☎ +216 50 085 021">
+  <meta property="og:url" content="https://www.remorquage-prive.tn/">
+
+  <!-- ===== Twitter Card ===== -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Remorquage &amp; Dépannage 24h/24 – Grand Tunis">
+  <meta name="twitter:description" content="Dépanneuse en moins de 30 min à Tunis, Ariana, Manouba et Ben Arous. ☎ +216 50 085 021">
+
+  <!-- ===== Icône (SVG inline, zéro requête) ===== -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23F59E0B'/%3E%3Cpath d='M12 42h24V30M36 42h16v-8l-6-9h-10v17' fill='none' stroke='%230B1120' stroke-width='4' stroke-linejoin='round'/%3E%3Ccircle cx='20' cy='46' r='5' fill='%230B1120'/%3E%3Ccircle cx='44' cy='46' r='5' fill='%230B1120'/%3E%3C/svg%3E">
+
+  <!-- ===== Polices ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@700;800&amp;display=swap">
+
+  <style>
+/* ==========================================================================
+   Remorquage Privé 24/24 7/7 — Feuille de style
+   Mobile-first · Variables CSS · Grid/Flexbox · clamp()
+   ========================================================================== */
+
+/* ---------- 1. Design tokens ---------- */
+:root {
+  /* Couleurs */
+  --ink: #0B1120;
+  --ink-2: #111827;
+  --ink-3: #1F2937;
+  --ink-line: #243044;
+  --soft: #F8FAFC;
+  --white: #FFFFFF;
+  --text: #0F172A;
+  --muted: #475569;
+  --muted-dark: #94A3B8;
+  --on-dark: #E2E8F0;
+  --line: #E2E8F0;
+
+  --amber: #F59E0B;
+  --amber-hi: #FBBF24;
+  --amber-text: #B45309;   /* ambre lisible sur fond clair (AA) */
+  --amber-50: #FFFBEB;
+  --amber-100: #FEF3C7;
+
+  --wa: #25D366;
+  --wa-hi: #3BE077;
+  --wa-ink: #052E16;
+
+  /* Typo */
+  --font-display: "Plus Jakarta Sans", "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --fs-h1: clamp(2.15rem, 1.4rem + 3.6vw, 4.1rem);
+  --fs-h2: clamp(1.75rem, 1.3rem + 2vw, 2.75rem);
+  --fs-h3: clamp(1.075rem, 1rem + .35vw, 1.25rem);
+  --fs-lead: clamp(1.05rem, 1rem + .35vw, 1.25rem);
+
+  /* Espacements & formes */
+  --gutter: clamp(1rem, 4vw, 2rem);
+  --section-y: clamp(4rem, 3rem + 5vw, 7rem);
+  --radius-sm: 12px;
+  --radius: 16px;
+  --radius-lg: 24px;
+  --header-h: 68px;
+  --bar-h: 76px;
+
+  /* Mouvement */
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, .06), 0 2px 8px rgba(15, 23, 42, .05);
+  --shadow: 0 10px 30px -10px rgba(15, 23, 42, .18);
+  --shadow-amber: 0 10px 30px -8px rgba(245, 158, 11, .55);
+  --shadow-wa: 0 10px 30px -8px rgba(37, 211, 102, .5);
+}
+
+/* ---------- 2. Reset minimal ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-h) + 12px);
+}
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  padding-bottom: calc(var(--bar-h) + env(safe-area-inset-bottom));
+}
+img, svg { display: block; max-width: 100%; }
+ul, ol { padding: 0; list-style: none; }
+a { color: inherit; text-decoration: none; }
+button, input { font: inherit; color: inherit; }
+button { cursor: pointer; background: none; border: 0; }
+address { font-style: normal; }
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); font-weight: 700; letter-spacing: -0.01em; }
+p { text-wrap: pretty; }
+
+:focus-visible {
+  outline: 3px solid var(--amber);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+.sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+
+.ic {
+  width: 1.25em;
+  height: 1.25em;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -100px;
+  z-index: 100;
+  padding: .75rem 1rem;
+  background: var(--amber);
+  color: var(--ink);
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+}
+.skip-link:focus { top: 1rem; }
+
+#top-sentinel { position: absolute; top: 0; height: 1px; width: 1px; }
+
+/* ---------- 3. Layout ---------- */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.container--narrow { max-width: 860px; }
+
+.section { padding-block: var(--section-y); }
+.section--soft { background: var(--soft); }
+.section--dark {
+  background: var(--ink);
+  color: var(--on-dark);
+}
+.section--dark h2, .section--dark h3 { color: var(--white); }
+
+.section__head {
+  max-width: 720px;
+  margin: 0 auto clamp(2.25rem, 4vw, 3.5rem);
+  text-align: center;
+}
+.section__sub {
+  margin-top: 1rem;
+  font-size: var(--fs-lead);
+  color: var(--muted);
+}
+.section--dark .section__sub { color: var(--muted-dark); }
+
+.eyebrow {
+  display: inline-block;
+  margin-bottom: .75rem;
+  font-size: .8125rem;
+  font-weight: 600;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--amber-text);
+}
+.eyebrow--amber { color: var(--amber); }
+
+/* ---------- 4. Boutons ---------- */
+.btn {
+  --btn-bg: var(--ink-3);
+  --btn-fg: var(--white);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .625rem;
+  min-height: 52px;
+  padding: .75rem 1.375rem;
+  border-radius: var(--radius-sm);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.15;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition:
+    transform .25s var(--ease),
+    box-shadow .3s var(--ease),
+    background-color .2s ease;
+  will-change: transform;
+}
+.btn .ic { width: 1.35em; height: 1.35em; stroke-width: 2.1; }
+.btn small {
+  display: block;
+  font-family: var(--font-body);
+  font-size: .8125rem;
+  font-weight: 500;
+  opacity: .82;
+  margin-top: 2px;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn:active, .btn.is-pressed { transform: translateY(0) scale(.97); transition-duration: .08s; }
+
+.btn--amber { --btn-bg: var(--amber); --btn-fg: var(--ink); }
+.btn--amber:hover { --btn-bg: var(--amber-hi); box-shadow: var(--shadow-amber); }
+
+.btn--wa { --btn-bg: var(--wa); --btn-fg: var(--wa-ink); }
+.btn--wa:hover { --btn-bg: var(--wa-hi); box-shadow: var(--shadow-wa); }
+
+.btn--ghost {
+  --btn-bg: transparent;
+  --btn-fg: var(--white);
+  border: 1.5px solid var(--ink-line);
+}
+.btn--ghost:hover { border-color: var(--amber); --btn-fg: var(--amber); }
+
+.btn--sm { min-height: 44px; padding: .55rem 1rem; font-size: .9375rem; }
+.btn--sm .ic { width: 1.15em; height: 1.15em; }
+.btn--xl { min-height: 64px; padding: .9rem 1.5rem; font-size: 1.125rem; border-radius: var(--radius); }
+.btn--block { width: 100%; }
+
+/* Halo pulsé sur le CTA principal (opacity + transform uniquement → compositeur) */
+.btn--pulse::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: 0 0 0 0 rgba(245, 158, 11, .6);
+  animation: btnPulse 2.4s var(--ease) infinite;
+  pointer-events: none;
+}
+@keyframes btnPulse {
+  0%   { box-shadow: 0 0 0 0 rgba(245, 158, 11, .55); }
+  70%  { box-shadow: 0 0 0 16px rgba(245, 158, 11, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
+}
+
+/* ---------- 5. Indicateur « live » (radar) ---------- */
+.live {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .8125rem;
+  font-weight: 600;
+  color: var(--wa);
+  white-space: nowrap;
+}
+.live__dot {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--wa);
+}
+.live__dot::before,
+.live__dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: var(--wa);
+  animation: radar 2.2s var(--ease) infinite;
+}
+.live__dot::after { animation-delay: 1.1s; }
+@keyframes radar {
+  0%   { transform: scale(1); opacity: .65; }
+  100% { transform: scale(3.2); opacity: 0; }
+}
+
+/* ---------- 6. Header ---------- */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  height: var(--header-h);
+  background: rgba(11, 17, 32, .88);
+  -webkit-backdrop-filter: saturate(160%) blur(12px);
+  backdrop-filter: saturate(160%) blur(12px);
+  border-bottom: 1px solid transparent;
+  transition: border-color .3s ease, box-shadow .3s ease;
+}
+.header.is-scrolled {
+  border-bottom-color: var(--ink-line);
+  box-shadow: 0 8px 24px -12px rgba(0, 0, 0, .6);
+}
+.header__inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: .625rem;
+  color: var(--white);
+}
+.logo__mark {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 11px;
+  background: var(--amber);
+  color: var(--ink);
+}
+.logo__mark .ic { width: 24px; height: 24px; stroke-width: 2.2; }
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.0625rem;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+.logo__text strong { font-weight: 800; color: var(--amber); }
+.logo__sub {
+  margin-top: 3px;
+  font-family: var(--font-body);
+  font-size: .6875rem;
+  font-weight: 600;
+  letter-spacing: .16em;
+  color: var(--muted-dark);
+}
+
+.nav { display: none; }
+.nav__list { display: flex; gap: .25rem; }
+.nav__list a {
+  display: inline-block;
+  padding: .5rem .875rem;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: .9375rem;
+  color: var(--on-dark);
+  transition: color .2s ease, background-color .2s ease;
+}
+.nav__list a:hover { color: var(--white); background: rgba(255, 255, 255, .06); }
+
+.header__actions { display: flex; align-items: center; gap: 1rem; }
+.header__actions .live { display: none; }
+.header__call-label { font-variant-numeric: tabular-nums; }
+
+/* ---------- 7. Hero ---------- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding-block: clamp(2.5rem, 2rem + 4vw, 6rem) clamp(3.5rem, 3rem + 4vw, 6.5rem);
+  isolation: isolate;
+}
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(60% 50% at 85% 10%, rgba(245, 158, 11, .16), transparent 70%),
+    radial-gradient(50% 40% at 0% 100%, rgba(37, 211, 102, .08), transparent 70%),
+    linear-gradient(180deg, var(--ink) 0%, var(--ink-2) 100%);
+}
+.hero__bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(148, 163, 184, .07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, .07) 1px, transparent 1px);
+  background-size: 48px 48px;
+  -webkit-mask-image: radial-gradient(70% 70% at 50% 30%, #000 30%, transparent 80%);
+  mask-image: radial-gradient(70% 70% at 50% 30%, #000 30%, transparent 80%);
+}
+
+.hero__grid {
+  display: grid;
+  gap: clamp(2.5rem, 5vw, 4rem);
+  align-items: center;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .625rem;
+  padding: .5rem 1rem .5rem .875rem;
+  border-radius: 999px;
+  background: rgba(37, 211, 102, .08);
+  border: 1px solid rgba(37, 211, 102, .3);
+  color: #BBF7D0;
+  font-size: .875rem;
+  font-weight: 600;
+  animation: badgeIn .9s var(--ease) both;
+}
+@keyframes badgeIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.hero__title {
+  margin-top: 1.25rem;
+  font-size: var(--fs-h1);
+  color: var(--white);
+}
+.hl {
+  color: var(--amber);
+  white-space: nowrap;
+}
+
+.hero__lead {
+  margin-top: 1.25rem;
+  max-width: 36rem;
+  font-size: var(--fs-lead);
+  color: #CBD5E1;
+}
+.hero__lead strong { color: var(--white); font-weight: 600; }
+
+.hero__ctas {
+  display: grid;
+  gap: .875rem;
+  margin-top: 2rem;
+}
+
+.trust {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .75rem 1.25rem;
+  margin-top: 2rem;
+  font-size: .9375rem;
+  font-weight: 500;
+  color: var(--on-dark);
+}
+.trust li { display: flex; align-items: center; gap: .55rem; }
+.trust .ic { color: var(--amber); }
+
+/* Carte statistiques */
+.stats {
+  position: relative;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(31, 41, 55, .72), rgba(17, 24, 39, .72));
+  border: 1px solid var(--ink-line);
+  box-shadow: 0 30px 60px -30px rgba(0, 0, 0, .8);
+}
+.stats::before {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(140deg, rgba(245, 158, 11, .6), transparent 40%, transparent 70%, rgba(37, 211, 102, .35));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+.stats__head { margin-bottom: 1.25rem; }
+.stats__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--ink-line);
+}
+.stat {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  gap: .25rem;
+  padding: 1.25rem 1rem;
+  background: var(--ink-2);
+}
+.stat dt { font-size: .8125rem; color: var(--muted-dark); font-weight: 500; }
+.stat dd {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2rem, 1.6rem + 1.6vw, 2.75rem);
+  line-height: 1;
+  color: var(--white);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+}
+.stat__pre, .stat__unit { color: var(--amber); }
+.stat__pre { margin-right: .1em; }
+.stat__unit { font-size: .5em; margin-left: .15em; letter-spacing: 0; }
+.count { display: inline-block; text-align: right; }
+.stats__foot {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: 1.25rem;
+  font-size: .875rem;
+  color: var(--muted-dark);
+}
+.stats__foot .ic { color: var(--amber); }
+
+/* ---------- 8. Générateur SOS WhatsApp ---------- */
+.sos {
+  display: grid;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  padding: clamp(1.25rem, 3vw, 2.5rem);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+.sos__form { display: grid; gap: 1.75rem; }
+
+.sos__step { border: 0; padding: 0; min-width: 0; }
+.sos__step legend {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+  margin-bottom: .875rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.0625rem;
+}
+.sos__num {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--amber);
+  font-size: .875rem;
+}
+
+.chips { display: grid; gap: .625rem; }
+.chips--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.chips--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+.chip { position: relative; display: block; }
+.chip input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+}
+.chip span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  min-height: 52px;
+  padding: .625rem .75rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--line);
+  background: var(--soft);
+  font-weight: 600;
+  font-size: .9375rem;
+  text-align: center;
+  line-height: 1.2;
+  cursor: pointer;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    border-color .2s ease,
+    background-color .2s ease,
+    color .2s ease,
+    transform .2s var(--ease);
+}
+.chip--icon span { flex-direction: column; gap: .35rem; min-height: 76px; }
+.chip--icon .ic { width: 26px; height: 26px; color: var(--muted); transition: color .2s ease; }
+.chip span:hover { border-color: #CBD5E1; background: var(--white); }
+.chip span:active { transform: scale(.97); }
+.chip input:checked + span {
+  border-color: var(--amber);
+  background: var(--amber-50);
+  color: var(--text);
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, .18);
+}
+.chip input:checked + span .ic { color: var(--amber-text); }
+.chip input:focus-visible + span { outline: 3px solid var(--amber); outline-offset: 2px; }
+
+.gps-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .625rem;
+  width: 100%;
+  min-height: 56px;
+  margin-bottom: .625rem;
+  padding: .75rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px dashed var(--amber);
+  background: var(--amber-50);
+  color: var(--amber-text);
+  font-weight: 700;
+  transition: background-color .2s ease, transform .2s var(--ease), border-color .2s ease;
+}
+.gps-btn:hover { background: var(--amber-100); }
+.gps-btn:active { transform: scale(.98); }
+.gps-btn .ic { width: 22px; height: 22px; }
+.gps-btn.is-loading .ic { animation: spin 1s linear infinite; }
+.gps-btn.is-done {
+  border-style: solid;
+  border-color: var(--wa);
+  background: #F0FDF4;
+  color: #15803D;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.gps-status {
+  min-height: 1.25rem;
+  margin-bottom: .625rem;
+  font-size: .875rem;
+  color: var(--muted);
+}
+.gps-status:empty { display: none; }
+.gps-status.is-error { color: #B91C1C; }
+.gps-status.is-ok { color: #15803D; }
+
+.sos__note label {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600;
+  font-size: .9375rem;
+}
+.sos__note input {
+  width: 100%;
+  min-height: 52px;
+  padding: .75rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--line);
+  background: var(--soft);
+  font-size: 1rem; /* ≥16px : évite le zoom auto iOS */
+  transition: border-color .2s ease, background-color .2s ease;
+}
+.sos__note input:focus { outline: none; border-color: var(--amber); background: var(--white); box-shadow: 0 0 0 3px rgba(245, 158, 11, .18); }
+
+.sos__preview {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+  border-radius: var(--radius);
+  background: var(--ink);
+  color: var(--on-dark);
+}
+.sos__preview-title {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 600;
+  font-size: .875rem;
+  color: var(--muted-dark);
+}
+.sos__preview-title .ic { color: var(--wa); }
+
+.bubble {
+  position: relative;
+  display: block;
+  padding: 1rem 1.125rem;
+  border-radius: 4px var(--radius) var(--radius) var(--radius);
+  background: #12372A;
+  color: #E7F7EE;
+  font-size: .9375rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  word-break: break-word;
+  min-height: 9rem;
+}
+.bubble b { color: var(--white); }
+.bubble .is-missing { color: #FCD34D; font-style: italic; }
+
+.sos__alt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  font-size: .9375rem;
+  font-weight: 500;
+  color: var(--muted-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(148, 163, 184, .4);
+  transition: color .2s ease;
+}
+.sos__alt:hover { color: var(--amber); }
+
+/* ---------- 9. Cartes services ---------- */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+.card {
+  position: relative;
+  padding: clamp(1.5rem, 3vw, 2rem);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform .5s var(--ease),
+    border-color .3s ease,
+    box-shadow .5s var(--ease);
+}
+.card::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  box-shadow: 0 0 0 1px var(--amber), 0 18px 40px -16px rgba(245, 158, 11, .45);
+  opacity: 0;
+  transition: opacity .4s var(--ease);
+  pointer-events: none;
+}
+.card:hover { transform: translateY(-6px); }
+.card:hover::after { opacity: 1; }
+.card__icon {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 1.25rem;
+  border-radius: 14px;
+  background: var(--amber-50);
+  color: var(--amber-text);
+  transition: background-color .3s ease, color .3s ease, transform .5s var(--ease);
+}
+.card__icon .ic { width: 30px; height: 30px; stroke-width: 1.7; }
+.card:hover .card__icon { background: var(--amber); color: var(--ink); transform: rotate(-6deg) scale(1.05); }
+.card h3 { margin-bottom: .5rem; }
+.card p { color: var(--muted); font-size: .9688rem; }
+
+/* ---------- 10. Bases ---------- */
+.bases {
+  display: grid;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  align-items: start;
+}
+
+.map {
+  padding: clamp(.75rem, 2vw, 1.25rem);
+  border-radius: var(--radius-lg);
+  background: var(--ink-2);
+  border: 1px solid var(--ink-line);
+}
+.map__svg { width: 100%; height: auto; border-radius: var(--radius); }
+.map__sea { fill: #0E2A47; opacity: .6; }
+.map__sea-label {
+  fill: #5B7FA6;
+  font: 600 10px var(--font-body);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-anchor: middle;
+  writing-mode: vertical-rl;
+}
+.map__links path {
+  fill: none;
+  stroke: var(--amber);
+  stroke-opacity: .35;
+  stroke-width: 1.5;
+  stroke-dasharray: 5 6;
+  animation: dash 18s linear infinite;
+}
+@keyframes dash { to { stroke-dashoffset: -220; } }
+.node text {
+  fill: var(--white);
+  font: 700 13px var(--font-display);
+  text-anchor: middle;
+}
+.node__dot { fill: var(--amber); stroke: var(--ink); stroke-width: 3; }
+.node__ring {
+  fill: var(--amber);
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: radar 2.6s var(--ease) infinite;
+  animation-delay: calc(var(--i) * .65s);
+}
+.map figcaption {
+  margin-top: .75rem;
+  font-size: .8125rem;
+  color: var(--muted-dark);
+  text-align: center;
+}
+
+.base-list { display: grid; gap: 1rem; }
+.base {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1.375rem;
+  border-radius: var(--radius);
+  background: var(--ink-2);
+  border: 1px solid var(--ink-line);
+  transition: border-color .3s ease, transform .5s var(--ease);
+}
+.base:hover { border-color: rgba(245, 158, 11, .5); transform: translateY(-3px); }
+.base h3 { display: flex; align-items: center; gap: .5rem; font-size: 1.125rem; }
+.base h3 .ic { color: var(--amber); }
+.base address {
+  font-weight: 600;
+  color: var(--amber-hi);
+  font-variant-numeric: tabular-nums;
+}
+.base p { font-size: .9063rem; color: var(--muted-dark); }
+.base .btn { align-self: flex-start; margin-top: .5rem; }
+
+/* ---------- 11. Étapes ---------- */
+.steps {
+  position: relative;
+  display: grid;
+  gap: clamp(1rem, 2vw, 1.5rem);
+  counter-reset: step;
+}
+.step {
+  position: relative;
+  padding: clamp(1.5rem, 3vw, 2rem);
+  border-radius: var(--radius-lg);
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+.step__num {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1;
+  color: var(--amber-100);
+}
+.step__icon {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 1.25rem;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--amber);
+}
+.step__icon .ic { width: 26px; height: 26px; }
+.step h3 { margin-bottom: .5rem; }
+.step p { color: var(--muted); font-size: .9688rem; }
+
+/* ---------- 12. FAQ ---------- */
+.faq {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: var(--white);
+  overflow: hidden;
+}
+.faq__item + .faq__item { border-top: 1px solid var(--line); }
+.faq__q { font-size: inherit; letter-spacing: 0; }
+.faq__q button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  min-height: 64px;
+  padding: 1.125rem clamp(1rem, 3vw, 1.75rem);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1rem, .96rem + .2vw, 1.0938rem);
+  text-align: left;
+  line-height: 1.35;
+  transition: background-color .2s ease, color .2s ease;
+}
+.faq__q button:hover { background: var(--soft); }
+.faq__q .ic {
+  width: 22px;
+  height: 22px;
+  color: var(--amber-text);
+  transition: transform .45s var(--ease);
+}
+.faq__q button[aria-expanded="true"] { color: var(--amber-text); }
+.faq__q button[aria-expanded="true"] .ic { transform: rotate(180deg); }
+
+.faq__a {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows .45s var(--ease);
+}
+.faq__a > div { overflow: hidden; }
+.faq__a p {
+  padding: 0 clamp(1rem, 3vw, 1.75rem) 1.375rem;
+  color: var(--muted);
+  opacity: 0;
+  transform: translateY(-6px);
+  transition: opacity .35s ease, transform .45s var(--ease);
+}
+.faq__item.is-open .faq__a { grid-template-rows: 1fr; }
+.faq__item.is-open .faq__a p { opacity: 1; transform: none; }
+.faq__a strong { color: var(--text); }
+/* Sans JS : tout reste lisible */
+html:not(.js) .faq__a { grid-template-rows: 1fr; }
+html:not(.js) .faq__a p { opacity: 1; transform: none; }
+
+/* ---------- 13. Bandeau CTA ---------- */
+.cta-band {
+  position: relative;
+  padding-block: clamp(3rem, 6vw, 4.5rem);
+  background:
+    radial-gradient(80% 120% at 100% 0%, rgba(245, 158, 11, .18), transparent 60%),
+    var(--ink-2);
+  border-top: 1px solid var(--ink-line);
+}
+.cta-band__inner {
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+}
+.cta-band h2 { color: var(--white); }
+.cta-band p { margin-top: .5rem; color: var(--muted-dark); font-size: var(--fs-lead); }
+.cta-band__btns { display: grid; gap: .75rem; }
+
+/* ---------- 14. Footer ---------- */
+.footer {
+  background: #070B16;
+  color: var(--muted-dark);
+  padding-top: clamp(3rem, 6vw, 4.5rem);
+  font-size: .9375rem;
+}
+.footer__grid {
+  display: grid;
+  gap: 2.25rem;
+  padding-bottom: 2.5rem;
+}
+.footer__brand p { margin-top: 1rem; max-width: 22rem; }
+.footer__hours {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-weight: 600;
+  color: var(--wa);
+}
+.footer__title {
+  margin: 0 0 .875rem;
+  font-family: var(--font-display);
+  font-size: .8125rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.footer__title:not(:first-child) { margin-top: 1.75rem; }
+.footer__col ul { display: grid; gap: .5rem; }
+.footer__col a {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  min-height: 32px;
+  transition: color .2s ease;
+}
+.footer__col a:hover { color: var(--amber); }
+.footer__addr strong { color: var(--on-dark); }
+.footer__cities p { font-size: .875rem; line-height: 1.6; }
+.footer__cities p + p { margin-top: .625rem; }
+.footer__cities strong { color: var(--on-dark); }
+.footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: .5rem 1.5rem;
+  padding-block: 1.5rem;
+  border-top: 1px solid #141C2E;
+  font-size: .8125rem;
+}
+
+/* ---------- 15. Barre d'action mobile ---------- */
+.action-bar {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 60;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .625rem;
+  padding: .625rem var(--gutter) calc(.625rem + env(safe-area-inset-bottom));
+  background: rgba(11, 17, 32, .92);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border-top: 1px solid var(--ink-line);
+  box-shadow: 0 -10px 30px -10px rgba(0, 0, 0, .5);
+  animation: barIn .7s var(--ease) .3s both;
+}
+.action-bar .btn {
+  min-height: 54px;
+  padding: .5rem .75rem;
+  font-size: .9375rem;
+  justify-content: center;
+  text-align: center;
+}
+@keyframes barIn {
+  from { transform: translateY(100%); }
+  to   { transform: none; }
+}
+
+/* ---------- 16. Boutons flottants desktop ---------- */
+.fab { display: none; }
+
+/* ---------- 17. Toast ---------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(var(--bar-h) + env(safe-area-inset-bottom) + 1rem);
+  z-index: 70;
+  max-width: min(92vw, 420px);
+  padding: .875rem 1.25rem;
+  border-radius: var(--radius-sm);
+  background: var(--ink-3);
+  color: var(--white);
+  font-weight: 500;
+  font-size: .9375rem;
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, .55);
+  border: 1px solid var(--ink-line);
+  opacity: 0;
+  transform: translate(-50%, 12px);
+  pointer-events: none;
+  transition: opacity .35s ease, transform .5s var(--ease);
+}
+.toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
+
+/* ---------- 18. Scroll reveal ---------- */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translate3d(0, 28px, 0);
+  transition:
+    opacity .9s var(--ease),
+    transform 1s var(--ease);
+  transition-delay: var(--d, 0ms);
+}
+.js [data-reveal].is-revealed {
+  opacity: 1;
+  transform: none;
+}
+/* Les cartes gardent leur propre transition au survol une fois révélées */
+.js .card.is-revealed,
+.js .base.is-revealed {
+  transition:
+    opacity .9s var(--ease) var(--d, 0ms),
+    transform .5s var(--ease),
+    border-color .3s ease,
+    box-shadow .5s var(--ease);
+}
+
+/* ==========================================================================
+   Breakpoints (mobile-first)
+   ========================================================================== */
+@media (min-width: 480px) {
+  .hero__ctas { grid-template-columns: 1fr 1fr; }
+  .chips--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .cta-band__btns { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 640px) {
+  .header__actions .live { display: inline-flex; }
+  .base-list { grid-template-columns: 1fr 1fr; }
+  .footer__grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 768px) {
+  .steps { grid-template-columns: repeat(3, 1fr); }
+  .steps::before {
+    content: "";
+    position: absolute;
+    top: calc(clamp(1.5rem, 3vw, 2rem) + 28px);
+    left: 16%;
+    right: 16%;
+    height: 2px;
+    background: repeating-linear-gradient(90deg, var(--amber) 0 8px, transparent 8px 16px);
+    opacity: .5;
+    z-index: 0;
+  }
+  .step { z-index: 1; }
+}
+
+@media (min-width: 960px) {
+  :root { --header-h: 76px; }
+  body { padding-bottom: 0; }
+
+  .nav { display: block; }
+  .hero__grid { grid-template-columns: 1.15fr .85fr; }
+  .hero__ctas { max-width: 600px; }
+  .trust { grid-template-columns: repeat(2, auto); justify-content: start; column-gap: 2.5rem; }
+
+  .sos { grid-template-columns: 1.25fr 1fr; align-items: start; }
+  .sos__preview { position: sticky; top: calc(var(--header-h) + 1.5rem); }
+
+  .bases { grid-template-columns: .9fr 1.1fr; }
+
+  .cta-band__inner { grid-template-columns: 1fr auto; }
+
+  .footer__grid { grid-template-columns: 1.2fr .8fr 1fr 1.4fr; }
+
+  /* Barre mobile masquée, remplacée par les boutons flottants */
+  .action-bar { display: none; }
+  .toast { bottom: 2rem; }
+
+  .fab {
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    z-index: 60;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    opacity: 0;
+    transform: translateY(20px) scale(.9);
+    pointer-events: none;
+    transition: opacity .4s ease, transform .6s var(--ease);
+  }
+  .fab.is-visible { opacity: 1; transform: none; pointer-events: auto; }
+  .fab__btn {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    box-shadow: 0 12px 28px -8px rgba(0, 0, 0, .45);
+    transition: transform .3s var(--ease), box-shadow .3s ease;
+  }
+  .fab__btn .ic { width: 26px; height: 26px; stroke-width: 2.1; }
+  .fab__btn:hover { transform: scale(1.08); }
+  .fab__btn:active { transform: scale(.95); }
+  .fab__btn--call { background: var(--amber); color: var(--ink); }
+  .fab__btn--call:hover { box-shadow: var(--shadow-amber); }
+  .fab__btn--wa { background: var(--wa); color: var(--wa-ink); }
+  .fab__btn--wa:hover { box-shadow: var(--shadow-wa); }
+  .fab__tip {
+    position: absolute;
+    right: calc(100% + .75rem);
+    top: 50%;
+    padding: .4rem .75rem;
+    border-radius: 8px;
+    background: var(--ink);
+    color: var(--white);
+    font-size: .8125rem;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translate(6px, -50%);
+    pointer-events: none;
+    transition: opacity .2s ease, transform .35s var(--ease);
+  }
+  .fab__btn:hover .fab__tip,
+  .fab__btn:focus-visible .fab__tip { opacity: 1; transform: translate(0, -50%); }
+}
+
+@media (min-width: 1200px) {
+  .nav__list a { padding-inline: 1rem; }
+}
+
+/* Écrans très étroits (≤ 360px) */
+@media (max-width: 360px) {
+  .logo__text { font-size: .9375rem; }
+  .header__call-label { display: none; }
+  .action-bar .btn { font-size: .875rem; gap: .375rem; }
+  .trust { grid-template-columns: 1fr; }
+}
+
+/* ==========================================================================
+   Accessibilité : réduction des animations
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+    transition-delay: 0ms !important;
+  }
+  .js [data-reveal] { opacity: 1; transform: none; }
+  .live__dot::before, .live__dot::after, .node__ring, .btn--pulse::after { display: none; }
+}
+
+/* Impression : contenu brut lisible */
+@media print {
+  .header, .action-bar, .fab, .toast, .hero__bg, .sos__preview { display: none !important; }
+  body { padding: 0; color: #000; }
+  .section--dark { background: #fff; color: #000; }
+  .js [data-reveal] { opacity: 1; transform: none; }
+}
+
+  </style>
+
+  <!-- ===== Données structurées : entreprise ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["AutomotiveBusiness", "EmergencyService"],
+    "@id": "https://www.remorquage-prive.tn/#business",
+    "name": "Remorquage Privé 24/24 7/7",
+    "alternateName": "Remorquage Privé",
+    "description": "Société de dépannage et remorquage automobile et moto 24h/24 et 7j/7 sur le Grand Tunis : Tunis, Ariana, Manouba et Ben Arous. Intervention en moins de 30 minutes en moyenne depuis 4 bases.",
+    "url": "https://www.remorquage-prive.tn/",
+    "telephone": "+21650085021",
+    "priceRange": "$$",
+    "currenciesAccepted": "TND",
+    "openingHours": "Mo-Su 00:00-23:59",
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "106 Rue Bab El Khadra",
+      "addressLocality": "Tunis",
+      "addressRegion": "Gouvernorat de Tunis",
+      "addressCountry": "TN"
+    },
+    "areaServed": [
+      { "@type": "AdministrativeArea", "name": "Ariana" },
+      { "@type": "AdministrativeArea", "name": "Tunis" },
+      { "@type": "AdministrativeArea", "name": "Manouba" },
+      { "@type": "AdministrativeArea", "name": "Ben Arous" }
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+21650085021",
+      "contactType": "emergency",
+      "areaServed": "TN",
+      "availableLanguage": ["French", "Arabic"],
+      "hoursAvailable": "Mo-Su 00:00-23:59"
+    },
+    "department": [
+      {
+        "@type": ["AutomotiveBusiness", "EmergencyService"],
+        "name": "Remorquage Privé 24/24 7/7 – Base Ariana",
+        "telephone": "+21650085021",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "address": { "@type": "PostalAddress", "streetAddress": "V55Q+G79", "addressLocality": "Ariana", "addressRegion": "Gouvernorat de l'Ariana", "addressCountry": "TN" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 36.8588, "longitude": 10.1881 },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=V55Q%2BG79%2C%20Ariana"
+      },
+      {
+        "@type": ["AutomotiveBusiness", "EmergencyService"],
+        "name": "Remorquage Privé 24/24 7/7 – Base Tunis Bab El Khadra",
+        "telephone": "+21650085021",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "address": { "@type": "PostalAddress", "streetAddress": "106 Rue Bab El Khadra", "addressLocality": "Tunis", "addressRegion": "Gouvernorat de Tunis", "addressCountry": "TN" },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=106%20Rue%20Bab%20El%20Khadra%2C%20Tunis"
+      },
+      {
+        "@type": ["AutomotiveBusiness", "EmergencyService"],
+        "name": "Remorquage Privé 24/24 7/7 – Base Manouba",
+        "telephone": "+21650085021",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "address": { "@type": "PostalAddress", "streetAddress": "R453+4H7, Rue Abou Moussa Al-Achaari", "addressLocality": "Manouba", "addressRegion": "Gouvernorat de la Manouba", "addressCountry": "TN" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 36.8078, "longitude": 10.1039 },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=R453%2B4H7%2C%20Manouba"
+      },
+      {
+        "@type": ["AutomotiveBusiness", "EmergencyService"],
+        "name": "Remorquage Privé 24/24 7/7 – Base Ben Arous",
+        "telephone": "+21650085021",
+        "openingHours": "Mo-Su 00:00-23:59",
+        "address": { "@type": "PostalAddress", "streetAddress": "Q64C+G4X", "addressLocality": "Ben Arous", "addressRegion": "Gouvernorat de Ben Arous", "addressCountry": "TN" },
+        "geo": { "@type": "GeoCoordinates", "latitude": 36.7563, "longitude": 10.2203 },
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Q64C%2BG4X%2C%20Ben%20Arous"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Services de dépannage et remorquage",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Remorquage plateau toutes distances" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Dépannage sur place (batterie, booster, roue de secours)" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Extraction de véhicule en sous-sol ou parking étroit" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Transport de véhicules de luxe et sportifs" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Remorquage d'utilitaires légers" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Assistance accident" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Remorquage moto" } }
+      ]
+    }
+  }
+  </script>
+
+  <!-- ===== Données structurées : FAQ ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "En combien de temps la dépanneuse arrive-t-elle ?", "acceptedAnswer": { "@type": "Answer", "text": "Grâce à nos 4 bases (Ariana, Tunis Bab El Khadra, Manouba et Ben Arous), le temps d'intervention moyen est inférieur à 30 minutes sur le Grand Tunis. Un délai estimé vous est annoncé dès votre appel." } },
+      { "@type": "Question", "name": "Comment est calculé le tarif du remorquage ?", "acceptedAnswer": { "@type": "Answer", "text": "Le prix dépend de la distance, du type de véhicule et de la situation (sous-sol, accident, enlisement). Il vous est annoncé clairement avant le départ de la dépanneuse, sans frais cachés." } },
+      { "@type": "Question", "name": "Intervenez-vous la nuit, le week-end et les jours fériés ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Nous intervenons 24h/24, 7j/7 et 365 jours par an, y compris la nuit, le week-end et les jours fériés." } },
+      { "@type": "Question", "name": "Quels moyens de paiement acceptez-vous ?", "acceptedAnswer": { "@type": "Answer", "text": "Le règlement s'effectue à la prise en charge ou à la livraison du véhicule. Les moyens de paiement acceptés vous sont confirmés au téléphone avant l'intervention." } },
+      { "@type": "Question", "name": "Pouvez-vous transporter les passagers du véhicule ?", "acceptedAnswer": { "@type": "Answer", "text": "Selon la dépanneuse envoyée et dans le respect des règles de sécurité, les passagers peuvent généralement voyager en cabine. Précisez leur nombre lors de votre appel." } },
+      { "@type": "Question", "name": "Quels types de véhicules pouvez-vous remorquer ?", "acceptedAnswer": { "@type": "Answer", "text": "Citadines, berlines, SUV et 4x4, utilitaires légers, motos ainsi que véhicules de luxe et sportifs, transportés sur plateau." } }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- ===== Sprite d'icônes SVG (une seule définition, réutilisée partout) ===== -->
+  <svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
+    <symbol id="i-wa" viewBox="0 0 24 24"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/><path d="M9 10a.5.5 0 0 0 1 0V9a.5.5 0 0 0-1 0v1a5 5 0 0 0 5 5h1a.5.5 0 0 0 0-1h-1a.5.5 0 0 0 0 1"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-gps" viewBox="0 0 24 24"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.5"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V4h8l10 10-8 8L3 12z"/><circle cx="7.5" cy="8.5" r="1.5"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M2 17h13V9"/><path d="M15 17h7v-4l-2.5-4H15"/><path d="M3 13.5l1.6-3.5h6.8L13 13.5z"/><path d="M3 13.5h10"/><circle cx="6" cy="18.5" r="1.8"/><circle cx="18.5" cy="18.5" r="1.8"/></symbol>
+    <symbol id="i-battery" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="12" rx="2"/><path d="M7 4v3M17 4v3M12.5 10l-2 3h3l-2 3"/></symbol>
+    <symbol id="i-parking" viewBox="0 0 24 24"><path d="M2 5h20"/><path d="M4 5v15M20 5v15"/><path d="M10 17V8.5h3a2.5 2.5 0 0 1 0 5h-3"/></symbol>
+    <symbol id="i-sport" viewBox="0 0 24 24"><path d="M2 16v-1.5l2.5-1 3-3.5h6l4.5 3 3.5.6V16z"/><circle cx="7" cy="16.5" r="1.8"/><circle cx="17.5" cy="16.5" r="1.8"/><path d="M19 3.5l.6 1.4 1.4.6-1.4.6-.6 1.4-.6-1.4-1.4-.6 1.4-.6z"/></symbol>
+    <symbol id="i-van" viewBox="0 0 24 24"><path d="M2 17V6h12l4.5 5H22v6z"/><path d="M14 6v5h4.5"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3l10 17H2L12 3z"/><path d="M12 10v4M12 17v.01"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12l5 5L20 7"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24"><path d="M3 16v-3l2.5-5h13l2.5 5v3z"/><path d="M3 13h18"/><circle cx="7" cy="16.5" r="1.6"/><circle cx="17" cy="16.5" r="1.6"/></symbol>
+    <symbol id="i-suv" viewBox="0 0 24 24"><path d="M2 17v-5l2.5-5h11l3.5 5h3v5z"/><path d="M2 12h20"/><path d="M10 7v5"/><circle cx="7" cy="17.5" r="2"/><circle cx="17" cy="17.5" r="2"/></symbol>
+    <symbol id="i-moto" viewBox="0 0 24 24"><circle cx="5" cy="16" r="3"/><circle cx="19" cy="16" r="3"/><path d="M5 16l4-6h5l5 6"/><path d="M14 10l2-3h2.5"/><path d="M9 10l-1.5-2.5H5"/></symbol>
+    <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.4-.6-.6-2.4z"/></symbol>
+    <symbol id="i-tire" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/><path d="M12 3v5.5M12 15.5V21M3 12h5.5M15.5 12H21"/></symbol>
+    <symbol id="i-mud" viewBox="0 0 24 24"><path d="M2 19c2 0 2-1.5 4-1.5S8 19 10 19s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/><path d="M4.5 13l1.8-4.5h11.4L19.5 13z"/><path d="M4.5 13h15"/><circle cx="8" cy="14.5" r="1.5"/><circle cx="16" cy="14.5" r="1.5"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h8.5a3.5 3.5 0 0 0 0-7h-9a3.5 3.5 0 0 1 0-7H16"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3l2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <div id="top-sentinel" aria-hidden="true"></div>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a class="logo" href="#accueil" aria-label="Remorquage Privé 24/24 7/7 – Accueil">
+        <span class="logo__mark" aria-hidden="true"><svg class="ic"><use href="#i-truck"/></svg></span>
+        <span class="logo__text">Remorquage <strong>Privé</strong><span class="logo__sub">24/24 · 7/7</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <ul class="nav__list">
+          <li><a href="#urgence">Urgence</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#bases">Nos bases</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <span class="live" aria-label="Disponible maintenant, 24h/24 et 7j/7"><span class="live__dot" aria-hidden="true"></span><span class="live__txt">Disponible 24/7</span></span>
+        <a class="btn btn--amber btn--sm" href="tel:+21650085021" data-haptic>
+          <svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span class="header__call-label">50 085 021</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu">
+
+    <!-- ================= 1. HERO ================= -->
+    <section class="hero section--dark" id="accueil" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="badge">
+            <span class="live__dot" aria-hidden="true"></span>
+            Intervention rapide en moins de 30&nbsp;min • Grand Tunis
+          </p>
+
+          <h1 class="hero__title" id="hero-title">
+            Dépannage &amp; Remorquage Auto/Moto <span class="hl">24h/24 et 7j/7</span>
+          </h1>
+
+          <p class="hero__lead">
+            Panne, accident ou batterie à plat à <strong>Tunis</strong>, <strong>Ariana</strong>, <strong>Manouba</strong> ou <strong>Ben Arous</strong>&nbsp;? La dépanneuse la plus proche part immédiatement vers vous.
+          </p>
+
+          <div class="hero__ctas">
+            <a class="btn btn--amber btn--xl btn--pulse" href="tel:+21650085021" data-haptic>
+              <svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>
+              <span>Appeler maintenant<small>+216 50 085 021</small></span>
+            </a>
+            <a class="btn btn--wa btn--xl" href="https://wa.me/21650085021?text=Bonjour%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage%20%2F%20remorquage%20urgent.%20Voici%20ma%20position%20%3A" target="_blank" rel="noopener" data-wa-geo data-haptic>
+              <svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg>
+              <span>Envoyer ma position<small>via WhatsApp + GPS</small></span>
+            </a>
+          </div>
+
+          <ul class="trust" aria-label="Nos garanties">
+            <li><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>4 bases locales</li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-tag"/></svg>Tarifs transparents</li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-truck"/></svg>Véhicules tous gabarits</li>
+            <li><svg class="ic" aria-hidden="true"><use href="#i-shield"/></svg>Assurance transport</li>
+          </ul>
+        </div>
+
+        <aside class="stats" aria-label="Chiffres clés" data-reveal>
+          <div class="stats__head">
+            <span class="live"><span class="live__dot" aria-hidden="true"></span><span class="live__txt">Dispatch en ligne</span></span>
+          </div>
+          <dl class="stats__grid">
+            <div class="stat">
+              <dt>Disponibilité</dt>
+              <dd><span class="count" data-count="24">24</span>/<span class="count" data-count="7">7</span></dd>
+            </div>
+            <div class="stat">
+              <dt>Bases Grand Tunis</dt>
+              <dd><span class="count" data-count="4">4</span></dd>
+            </div>
+            <div class="stat">
+              <dt>Temps moyen</dt>
+              <dd><span class="stat__pre">&lt;</span><span class="count" data-count="30">30</span><span class="stat__unit">min</span></dd>
+            </div>
+            <div class="stat">
+              <dt>Transport sécurisé</dt>
+              <dd><span class="count" data-count="100">100</span><span class="stat__unit">%</span></dd>
+            </div>
+          </dl>
+          <p class="stats__foot"><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg>365 jours par an, nuits &amp; jours fériés inclus</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= 2. GÉNÉRATEUR WHATSAPP ================= -->
+    <section class="section section--soft" id="urgence" aria-labelledby="urgence-title">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Assistance express</p>
+          <h2 id="urgence-title">Envoyez votre demande en 2 clics</h2>
+          <p class="section__sub">Choisissez votre zone (ou activez le GPS), votre véhicule et le problème. Nous recevons un message clair avec votre position exacte.</p>
+        </header>
+
+        <div class="sos" data-reveal>
+          <form class="sos__form" id="sos-form" novalidate>
+            <fieldset class="sos__step">
+              <legend><span class="sos__num">1</span>Où êtes-vous&nbsp;?</legend>
+              <button type="button" class="gps-btn" id="gps-btn" data-haptic>
+                <svg class="ic" aria-hidden="true"><use href="#i-gps"/></svg>
+                <span class="gps-btn__label">Détecter ma position (GPS)</span>
+              </button>
+              <p class="gps-status" id="gps-status" role="status" aria-live="polite"></p>
+              <div class="chips chips--4">
+                <label class="chip"><input type="radio" name="zone" value="Ariana"><span>Ariana</span></label>
+                <label class="chip"><input type="radio" name="zone" value="Tunis"><span>Tunis</span></label>
+                <label class="chip"><input type="radio" name="zone" value="Manouba"><span>Manouba</span></label>
+                <label class="chip"><input type="radio" name="zone" value="Ben Arous"><span>Ben Arous</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="sos__step">
+              <legend><span class="sos__num">2</span>Votre véhicule</legend>
+              <div class="chips chips--4">
+                <label class="chip chip--icon"><input type="radio" name="vehicule" value="Citadine / Berline"><span><svg class="ic" aria-hidden="true"><use href="#i-car"/></svg>Citadine</span></label>
+                <label class="chip chip--icon"><input type="radio" name="vehicule" value="SUV / 4x4"><span><svg class="ic" aria-hidden="true"><use href="#i-suv"/></svg>SUV / 4x4</span></label>
+                <label class="chip chip--icon"><input type="radio" name="vehicule" value="Utilitaire"><span><svg class="ic" aria-hidden="true"><use href="#i-van"/></svg>Utilitaire</span></label>
+                <label class="chip chip--icon"><input type="radio" name="vehicule" value="Moto"><span><svg class="ic" aria-hidden="true"><use href="#i-moto"/></svg>Moto</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="sos__step">
+              <legend><span class="sos__num">3</span>Le problème</legend>
+              <div class="chips chips--2">
+                <label class="chip chip--icon"><input type="radio" name="probleme" value="Panne mécanique"><span><svg class="ic" aria-hidden="true"><use href="#i-wrench"/></svg>Panne mécanique</span></label>
+                <label class="chip chip--icon"><input type="radio" name="probleme" value="Accident"><span><svg class="ic" aria-hidden="true"><use href="#i-alert"/></svg>Accident</span></label>
+                <label class="chip chip--icon"><input type="radio" name="probleme" value="Batterie / Crevaison"><span><svg class="ic" aria-hidden="true"><use href="#i-tire"/></svg>Batterie / Crevaison</span></label>
+                <label class="chip chip--icon"><input type="radio" name="probleme" value="Enlisement"><span><svg class="ic" aria-hidden="true"><use href="#i-mud"/></svg>Enlisement</span></label>
+              </div>
+            </fieldset>
+
+            <div class="sos__note">
+              <label for="sos-details">Précision (facultatif)</label>
+              <input id="sos-details" name="details" type="text" maxlength="140" autocomplete="off" placeholder="Ex : sortie autoroute A1, devant la station…">
+            </div>
+          </form>
+
+          <div class="sos__preview">
+            <p class="sos__preview-title"><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg>Aperçu du message</p>
+            <output class="bubble" id="sos-preview" for="sos-form" aria-label="Aperçu du message WhatsApp"></output>
+            <button type="button" class="btn btn--wa btn--xl btn--block" id="sos-send" data-haptic>
+              <svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg>
+              <span>Envoyer sur WhatsApp</span>
+            </button>
+            <a class="sos__alt" href="tel:+21650085021" data-haptic><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Ou appelez directement le <span style="white-space:nowrap">+216 50 085 021</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. SERVICES ================= -->
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Nos prestations</p>
+          <h2 id="services-title">Services de remorquage &amp; dépannage</h2>
+          <p class="section__sub">Une flotte équipée pour chaque situation, de la citadine en panne à la sportive à transporter sur plateau.</p>
+        </header>
+
+        <ul class="cards" data-stagger>
+          <li class="card" data-reveal>
+            <span class="card__icon" aria-hidden="true"><svg class="ic"><use href="#i-truck"/></svg></span>
+            <h3>Remorquage plateau toutes distances</h3>
+            <p>Chargement sur plateau sans contact des roues motrices, du Grand Tunis vers toute la Tunisie.</p>
+          </li>
+          <li class="card" data-reveal>
+            <span class="card__icon" aria-hidden="true"><svg class="ic"><use href="#i-battery"/></svg></span>
+            <h3>Dépannage sur place</h3>
+            <p>Batterie à plat (booster), changement de roue de secours, petite intervention pour repartir sans remorquage.</p>
+          </li>
+          <li class="card" data-reveal>
+            <span class="card__icon" aria-hidden="true"><svg class="ic"><use href="#i-parking"/></svg></span>
+            <h3>Extraction sous-sol &amp; parking étroit</h3>
+            <p>Sortie de véhicule en parking souterrain, ruelle ou espace exigu grâce à un matériel adapté.</p>
+          </li>
+          <li class="card" data-reveal>
+            <span class="card__icon" aria-hidden="true"><svg class="ic"><use href="#i-sport"/></svg></span>
+            <h3>Transport véhicules de luxe &amp; sportifs</h3>
+            <p>Plateau à faible angle de chargement, sanglage des roues et manipulation soignée de votre véhicule.</p>
+          </li>
+          <li class="card" data-reveal>
+            <span class="card__icon" aria-hidden="true"><svg class="ic"><use href="#i-van"/></svg></span>
+            <h3>Remorquage utilitaires légers</h3>
+            <p>Fourgonnettes et utilitaires de livraison pris en charge rapidement pour limiter votre immobilisation.</p>
+          </li>
+          <li class="card" data-reveal>
+            <span class="card__icon" aria-hidden="true"><svg class="ic"><use href="#i-alert"/></svg></span>
+            <h3>Assistance accident</h3>
+            <p>Sécurisation des lieux, évacuation du véhicule accidenté et dépôt au garage ou à l'expert de votre choix.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= 4. BASES ================= -->
+    <section class="section section--dark" id="bases" aria-labelledby="bases-title">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow eyebrow--amber">Couverture Grand Tunis</p>
+          <h2 id="bases-title">Nos 4 bases stratégiques</h2>
+          <p class="section__sub">Nos dépanneuses stationnent aux quatre points cardinaux du Grand Tunis. Ce maillage réduit la distance à parcourir : c'est toujours le véhicule le plus proche qui part vers vous.</p>
+        </header>
+
+        <div class="bases">
+          <figure class="map" data-reveal>
+            <svg class="map__svg" viewBox="0 0 400 320" role="img" aria-labelledby="map-title map-desc">
+              <title id="map-title">Schéma de couverture du Grand Tunis</title>
+              <desc id="map-desc">Positions schématiques des bases d'Ariana au nord, Tunis au centre, Manouba à l'ouest et Ben Arous au sud, avec leurs rayons d'intervention qui se chevauchent.</desc>
+              <defs>
+                <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#1E293B" stroke-width="1"/></pattern>
+                <radialGradient id="zone"><stop offset="0" stop-color="#F59E0B" stop-opacity=".22"/><stop offset="1" stop-color="#F59E0B" stop-opacity="0"/></radialGradient>
+              </defs>
+              <rect width="400" height="320" fill="url(#grid)"/>
+              <path class="map__sea" d="M300 0h100v320H330c-10-30 5-60-20-90s-35-40-20-70 10-50 25-80-10-50-15-80z"/>
+              <text class="map__sea-label" x="352" y="150">Golfe de Tunis</text>
+              <g class="map__zones">
+                <circle cx="205" cy="78" r="82" fill="url(#zone)"/>
+                <circle cx="215" cy="165" r="82" fill="url(#zone)"/>
+                <circle cx="95" cy="160" r="82" fill="url(#zone)"/>
+                <circle cx="265" cy="245" r="82" fill="url(#zone)"/>
+              </g>
+              <g class="map__links">
+                <path d="M205 78L215 165L95 160L205 78M215 165L265 245L95 160"/>
+              </g>
+              <g class="map__nodes">
+                <g class="node" style="--i:0"><circle class="node__ring" cx="205" cy="78" r="10"/><circle class="node__dot" cx="205" cy="78" r="7"/><text x="205" y="56">Ariana</text></g>
+                <g class="node" style="--i:1"><circle class="node__ring" cx="215" cy="165" r="10"/><circle class="node__dot" cx="215" cy="165" r="7"/><text x="236" y="170" text-anchor="start">Tunis</text></g>
+                <g class="node" style="--i:2"><circle class="node__ring" cx="95" cy="160" r="10"/><circle class="node__dot" cx="95" cy="160" r="7"/><text x="95" y="138">Manouba</text></g>
+                <g class="node" style="--i:3"><circle class="node__ring" cx="265" cy="245" r="10"/><circle class="node__dot" cx="265" cy="245" r="7"/><text x="265" y="275">Ben Arous</text></g>
+              </g>
+            </svg>
+            <figcaption>Schéma indicatif — chaque base couvre son gouvernorat et épaule les zones voisines.</figcaption>
+          </figure>
+
+          <ul class="base-list" data-stagger>
+            <li class="base" data-reveal>
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Base Ariana</h3>
+              <address>V55Q+G79, Ariana</address>
+              <p>Ariana Ville, La Soukra, Raoued, Ennasr, Mnihla, Ettadhamen.</p>
+              <a class="btn btn--ghost btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=V55Q%2BG79%2C%20Ariana" target="_blank" rel="noopener">Ouvrir dans Google Maps<svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+            </li>
+            <li class="base" data-reveal>
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Base Tunis – Bab El Khadra</h3>
+              <address>106 Rue Bab El Khadra, Tunis</address>
+              <p>Centre-ville, Lafayette, Le Bardo, El Menzah, La Marsa, Carthage.</p>
+              <a class="btn btn--ghost btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=106%20Rue%20Bab%20El%20Khadra%2C%20Tunis" target="_blank" rel="noopener">Ouvrir dans Google Maps<svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+            </li>
+            <li class="base" data-reveal>
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Base Manouba</h3>
+              <address>R453+4H7, Rue Abou Moussa Al-Achaari, Manouba</address>
+              <p>Manouba, Den Den, Douar Hicher, Oued Ellil, Mornaguia, Tebourba.</p>
+              <a class="btn btn--ghost btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=R453%2B4H7%2C%20Manouba" target="_blank" rel="noopener">Ouvrir dans Google Maps<svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+            </li>
+            <li class="base" data-reveal>
+              <h3><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg>Base Ben Arous</h3>
+              <address>Q64C+G4X, Ben Arous</address>
+              <p>Ben Arous, Radès, Ezzahra, Hammam Lif, El Mourouj, Mégrine, Mornag.</p>
+              <a class="btn btn--ghost btn--sm" href="https://www.google.com/maps/search/?api=1&amp;query=Q64C%2BG4X%2C%20Ben%20Arous" target="_blank" rel="noopener">Ouvrir dans Google Maps<svg class="ic" aria-hidden="true"><use href="#i-ext"/></svg></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. PROCESSUS ================= -->
+    <section class="section section--soft" id="processus" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Simple et rapide</p>
+          <h2 id="process-title">Comment ça marche&nbsp;?</h2>
+        </header>
+
+        <ol class="steps" data-stagger>
+          <li class="step" data-reveal>
+            <span class="step__num" aria-hidden="true">1</span>
+            <span class="step__icon" aria-hidden="true"><svg class="ic"><use href="#i-phone"/></svg></span>
+            <h3>Vous nous contactez</h3>
+            <p>Appelez-nous ou envoyez votre position sur WhatsApp. Nous qualifions votre besoin et vous annonçons le délai et le tarif.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num" aria-hidden="true">2</span>
+            <span class="step__icon" aria-hidden="true"><svg class="ic"><use href="#i-route"/></svg></span>
+            <h3>La dépanneuse la plus proche démarre</h3>
+            <p>Depuis Ariana, Tunis, Manouba ou Ben Arous, le véhicule le mieux placé part immédiatement vers vous.</p>
+          </li>
+          <li class="step" data-reveal>
+            <span class="step__num" aria-hidden="true">3</span>
+            <span class="step__icon" aria-hidden="true"><svg class="ic"><use href="#i-shield"/></svg></span>
+            <h3>Prise en charge sécurisée</h3>
+            <p>Votre véhicule est chargé, sanglé et livré au garage, à l'expert ou à l'adresse de votre choix.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= 6. FAQ ================= -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <header class="section__head" data-reveal>
+          <p class="eyebrow">Questions fréquentes</p>
+          <h2 id="faq-title">Vos questions, nos réponses</h2>
+        </header>
+
+        <div class="faq" data-reveal>
+          <div class="faq__item">
+            <h3 class="faq__q"><button type="button" aria-expanded="false" aria-controls="faq-1">En combien de temps la dépanneuse arrive-t-elle&nbsp;?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></button></h3>
+            <div class="faq__a" id="faq-1" role="region"><div><p>Grâce à nos 4 bases (Ariana, Tunis Bab El Khadra, Manouba et Ben Arous), le temps d'intervention moyen est <strong>inférieur à 30 minutes</strong> sur le Grand Tunis. Un délai estimé vous est annoncé dès votre appel, selon votre position et le trafic.</p></div></div>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__q"><button type="button" aria-expanded="false" aria-controls="faq-2">Comment est calculé le tarif du remorquage&nbsp;?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></button></h3>
+            <div class="faq__a" id="faq-2" role="region"><div><p>Le prix dépend de la distance, du type de véhicule et de la situation (sous-sol, accident, enlisement). Il vous est <strong>annoncé clairement avant le départ</strong> de la dépanneuse, sans frais cachés.</p></div></div>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__q"><button type="button" aria-expanded="false" aria-controls="faq-3">Intervenez-vous la nuit, le week-end et les jours fériés&nbsp;?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></button></h3>
+            <div class="faq__a" id="faq-3" role="region"><div><p>Oui. Nous intervenons <strong>24h/24, 7j/7 et 365 jours par an</strong>, y compris la nuit, le week-end et les jours fériés (Aïd, fêtes nationales…).</p></div></div>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__q"><button type="button" aria-expanded="false" aria-controls="faq-4">Quels moyens de paiement acceptez-vous&nbsp;?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></button></h3>
+            <div class="faq__a" id="faq-4" role="region"><div><p>Le règlement s'effectue à la prise en charge ou à la livraison du véhicule. Les moyens de paiement acceptés vous sont confirmés au téléphone avant l'intervention.</p></div></div>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__q"><button type="button" aria-expanded="false" aria-controls="faq-5">Pouvez-vous transporter les passagers du véhicule&nbsp;?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></button></h3>
+            <div class="faq__a" id="faq-5" role="region"><div><p>Selon la dépanneuse envoyée et dans le respect des règles de sécurité, les passagers peuvent généralement voyager en cabine. Précisez leur nombre lors de votre appel.</p></div></div>
+          </div>
+          <div class="faq__item">
+            <h3 class="faq__q"><button type="button" aria-expanded="false" aria-controls="faq-6">Quels types de véhicules pouvez-vous remorquer&nbsp;?<svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></button></h3>
+            <div class="faq__a" id="faq-6" role="region"><div><p>Citadines, berlines, SUV et 4x4, utilitaires légers, motos ainsi que véhicules de luxe et sportifs, tous transportés sur plateau.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= BANDEAU CTA ================= -->
+    <section class="cta-band section--dark" aria-labelledby="cta-title">
+      <div class="container cta-band__inner" data-reveal>
+        <div>
+          <h2 id="cta-title">En panne maintenant&nbsp;? On arrive.</h2>
+          <p>Un opérateur vous répond immédiatement, jour et nuit.</p>
+        </div>
+        <div class="cta-band__btns">
+          <a class="btn btn--amber btn--xl" href="tel:+21650085021" data-haptic><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span>+216 50 085 021</span></a>
+          <a class="btn btn--wa btn--xl" href="https://wa.me/21650085021?text=Bonjour%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage%20%2F%20remorquage%20urgent.%20Voici%20ma%20position%20%3A" target="_blank" rel="noopener" data-wa-geo data-haptic><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__col footer__brand">
+        <a class="logo" href="#accueil" aria-label="Remorquage Privé 24/24 7/7 – Retour en haut">
+          <span class="logo__mark" aria-hidden="true"><svg class="ic"><use href="#i-truck"/></svg></span>
+          <span class="logo__text">Remorquage <strong>Privé</strong><span class="logo__sub">24/24 · 7/7</span></span>
+        </a>
+        <p>Dépannage et remorquage auto/moto sur tout le Grand Tunis : Tunis, Ariana, Manouba et Ben Arous.</p>
+        <p class="footer__hours"><svg class="ic" aria-hidden="true"><use href="#i-clock"/></svg>Ouvert 24h/24 · 7j/7 · 365j/an</p>
+      </div>
+
+      <div class="footer__col">
+        <h2 class="footer__title">Contact</h2>
+        <ul>
+          <li><a href="tel:+21650085021"><svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>+216 50 085 021</a></li>
+          <li><a href="https://wa.me/21650085021" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a></li>
+        </ul>
+        <h2 class="footer__title">Liens rapides</h2>
+        <ul>
+          <li><a href="#urgence">Demande d'urgence</a></li>
+          <li><a href="#services">Nos services</a></li>
+          <li><a href="#bases">Nos bases</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h2 class="footer__title">Nos bases</h2>
+        <ul class="footer__addr">
+          <li><strong>Ariana</strong> — V55Q+G79, Ariana</li>
+          <li><strong>Tunis</strong> — 106 Rue Bab El Khadra, Tunis</li>
+          <li><strong>Manouba</strong> — R453+4H7, Rue Abou Moussa Al-Achaari, Manouba</li>
+          <li><strong>Ben Arous</strong> — Q64C+G4X, Ben Arous</li>
+        </ul>
+      </div>
+
+      <div class="footer__col footer__cities">
+        <h2 class="footer__title">Villes desservies</h2>
+        <p><strong>Tunis :</strong> remorquage Tunis Centre, Bab El Khadra, Lafayette, Le Bardo, El Menzah, El Manar, La Marsa, Carthage, La Goulette, Le Kram, Sidi Hassine.</p>
+        <p><strong>Ariana :</strong> dépannage voiture Ariana Ville, La Soukra, Raoued, Ennasr, Mnihla, Ettadhamen, Kalâat el-Andalous, Sidi Thabet.</p>
+        <p><strong>Manouba :</strong> remorquage Manouba 24/24, Den Den, Douar Hicher, Oued Ellil, Mornaguia, Tebourba, Djedeida.</p>
+        <p><strong>Ben Arous :</strong> SOS remorquage Ben Arous, Radès, Ezzahra, Hammam Lif, Hammam Chott, El Mourouj, Mégrine, Mornag, Fouchana, Mohamedia.</p>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span id="year">2026</span> Remorquage Privé 24/24 7/7. Tous droits réservés.</p>
+      <p>Dépanneuse Grand Tunis · Remorquage auto &amp; moto</p>
+    </div>
+  </footer>
+
+  <!-- ================= BARRE D'ACTION MOBILE ================= -->
+  <nav class="action-bar" aria-label="Contact d'urgence">
+    <a class="btn btn--amber" href="tel:+21650085021" data-haptic>
+      <svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg>Appeler maintenant
+    </a>
+    <a class="btn btn--wa" href="https://wa.me/21650085021?text=Bonjour%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage%20%2F%20remorquage%20urgent.%20Voici%20ma%20position%20%3A" target="_blank" rel="noopener" data-wa-geo data-haptic>
+      <svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg>Position WhatsApp
+    </a>
+  </nav>
+
+  <!-- ================= BOUTONS FLOTTANTS DESKTOP ================= -->
+  <div class="fab" id="fab" aria-label="Contact rapide">
+    <a class="fab__btn fab__btn--wa" href="https://wa.me/21650085021?text=Bonjour%2C%20j%27ai%20besoin%20d%27un%20d%C3%A9pannage%20%2F%20remorquage%20urgent.%20Voici%20ma%20position%20%3A" target="_blank" rel="noopener" data-wa-geo aria-label="Envoyer ma position sur WhatsApp" tabindex="-1">
+      <svg class="ic" aria-hidden="true"><use href="#i-wa"/></svg><span class="fab__tip">Position WhatsApp</span>
+    </a>
+    <a class="fab__btn fab__btn--call" href="tel:+21650085021" aria-label="Appeler le +216 50 085 021" tabindex="-1">
+      <svg class="ic" aria-hidden="true"><use href="#i-phone"/></svg><span class="fab__tip">+216 50 085 021</span>
+    </a>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>
+/* ==========================================================================
+   Remorquage Privé 24/24 7/7 — Scripts
+   Vanilla ES6+ · Zéro dépendance · IntersectionObserver
+   ========================================================================== */
+(() => {
+  'use strict';
+
+  /* ---------- Configuration ---------- */
+  const CONFIG = {
+    whatsapp: '21650085021',
+    phoneDisplay: '+216 50 085 021',
+    geoTimeout: 8000,
+    // Coordonnées décodées des Plus Codes (Tunis : approximation du quartier Bab El Khadra)
+    bases: [
+      { name: 'Ariana',               zone: 'Ariana',    lat: 36.8588, lng: 10.1881 },
+      { name: 'Tunis – Bab El Khadra', zone: 'Tunis',     lat: 36.8065, lng: 10.1700 },
+      { name: 'Manouba',              zone: 'Manouba',   lat: 36.8078, lng: 10.1039 },
+      { name: 'Ben Arous',            zone: 'Ben Arous', lat: 36.7563, lng: 10.2203 }
+    ]
+  };
+
+  /* ---------- Utilitaires ---------- */
+  const $ = (sel, ctx = document) => ctx.querySelector(sel);
+  const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const coarsePointer = window.matchMedia('(pointer: coarse)').matches;
+  const hasIO = 'IntersectionObserver' in window;
+
+  const haptic = (pattern = 12) => {
+    if ('vibrate' in navigator && !reducedMotion.matches) {
+      try { navigator.vibrate(pattern); } catch (_) { /* non supporté */ }
+    }
+  };
+
+  const escapeHTML = (str) =>
+    String(str).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  /* ---------- Toast ---------- */
+  const toastEl = $('#toast');
+  let toastTimer;
+  const toast = (msg, duration = 3200) => {
+    if (!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('is-visible');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toastEl.classList.remove('is-visible'), duration);
+  };
+
+  /* ---------- Géolocalisation ---------- */
+  const geoSupported = () => 'geolocation' in navigator && window.isSecureContext !== false;
+
+  const getPosition = (timeout = CONFIG.geoTimeout) =>
+    new Promise((resolve, reject) => {
+      if (!geoSupported()) {
+        reject(Object.assign(new Error('unsupported'), { code: 0 }));
+        return;
+      }
+      navigator.geolocation.getCurrentPosition(
+        (pos) => resolve({
+          lat: pos.coords.latitude,
+          lng: pos.coords.longitude,
+          accuracy: Math.round(pos.coords.accuracy || 0)
+        }),
+        reject,
+        { enableHighAccuracy: true, timeout, maximumAge: 60000 }
+      );
+    });
+
+  const geoErrorMessage = (err) => {
+    switch (err && err.code) {
+      case 1: return 'Accès à la position refusé. Autorisez la localisation ou choisissez votre zone ci-dessous.';
+      case 2: return 'Position indisponible pour le moment. Choisissez votre zone ci-dessous.';
+      case 3: return 'La localisation prend trop de temps. Réessayez ou choisissez votre zone.';
+      default: return 'Votre navigateur ne permet pas la localisation. Choisissez votre zone ci-dessous.';
+    }
+  };
+
+  const toRad = (d) => (d * Math.PI) / 180;
+  const distanceKm = (a, b) => {
+    const R = 6371;
+    const dLat = toRad(b.lat - a.lat);
+    const dLng = toRad(b.lng - a.lng);
+    const h = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.sin(dLng / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(h));
+  };
+
+  const nearestBase = (pos) =>
+    CONFIG.bases
+      .map((b) => ({ ...b, km: distanceKm(pos, b) }))
+      .sort((x, y) => x.km - y.km)[0];
+
+  const mapsLink = (pos) => `https://www.google.com/maps?q=${pos.lat.toFixed(6)},${pos.lng.toFixed(6)}`;
+
+  /* ---------- WhatsApp ---------- */
+  const waUrl = (text) => `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(text)}`;
+
+  /**
+   * Ouvre WhatsApp. Sur mobile : navigation directe (ouvre l'application).
+   * Sur desktop : nouvel onglet (pré-ouvert si besoin pour éviter le bloqueur de pop-up).
+   */
+  const openWhatsApp = (text, preOpened = null) => {
+    const url = waUrl(text);
+    if (preOpened && !preOpened.closed) {
+      preOpened.location.href = url;
+      return;
+    }
+    if (coarsePointer) {
+      window.location.href = url;
+      return;
+    }
+    const win = window.open(url, '_blank', 'noopener');
+    if (!win) window.location.href = url;
+  };
+
+  /* ---------- 1. Année du copyright ---------- */
+  const initYear = () => {
+    const el = $('#year');
+    if (el) el.textContent = String(new Date().getFullYear());
+  };
+
+  /* ---------- 2. Header au scroll (sans écouteur scroll) ---------- */
+  const initHeader = () => {
+    const header = $('#header');
+    const sentinel = $('#top-sentinel');
+    if (!header || !sentinel || !hasIO) return;
+    new IntersectionObserver(([entry]) => {
+      header.classList.toggle('is-scrolled', !entry.isIntersecting);
+    }, { rootMargin: '8px 0px 0px 0px' }).observe(sentinel);
+  };
+
+  /* ---------- 3. Scroll reveal avec stagger ---------- */
+  const initReveal = () => {
+    const items = $$('[data-reveal]');
+    if (!items.length) return;
+
+    // Décalage progressif pour les enfants d'un conteneur [data-stagger]
+    $$('[data-stagger]').forEach((group) => {
+      $$(':scope > [data-reveal]', group).forEach((child, i) => {
+        child.style.setProperty('--d', `${Math.min(i * 90, 540)}ms`);
+      });
+    });
+
+    if (!hasIO || reducedMotion.matches) {
+      items.forEach((el) => el.classList.add('is-revealed'));
+      return;
+    }
+
+    const io = new IntersectionObserver((entries, obs) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('is-revealed');
+        obs.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+
+    items.forEach((el) => io.observe(el));
+  };
+
+  /* ---------- 4. Compteurs animés ---------- */
+  const initCounters = () => {
+    const counters = $$('[data-count]');
+    if (!counters.length || reducedMotion.matches || !hasIO) return;
+
+    const easeOutExpo = (t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t));
+    const DURATION = 1600;
+
+    const animate = (el) => {
+      const target = parseInt(el.dataset.count, 10) || 0;
+      const start = performance.now();
+      const tick = (now) => {
+        const p = Math.min((now - start) / DURATION, 1);
+        el.textContent = String(Math.round(target * easeOutExpo(p)));
+        if (p < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    };
+
+    // Fige la largeur finale pour éviter tout décalage de mise en page (CLS)
+    counters.forEach((el) => {
+      el.style.minWidth = `${el.getBoundingClientRect().width}px`;
+      el.textContent = '0';
+    });
+
+    const io = new IntersectionObserver((entries, obs) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        animate(entry.target);
+        obs.unobserve(entry.target);
+      });
+    }, { threshold: 0.4 });
+
+    counters.forEach((el) => io.observe(el));
+  };
+
+  /* ---------- 5. FAQ accordéon ---------- */
+  const initFaq = () => {
+    const items = $$('.faq__item');
+    items.forEach((item) => {
+      const btn = $('button', item);
+      if (!btn) return;
+      btn.addEventListener('click', () => {
+        const open = btn.getAttribute('aria-expanded') === 'true';
+        // Un seul panneau ouvert à la fois
+        items.forEach((other) => {
+          if (other !== item) {
+            other.classList.remove('is-open');
+            const b = $('button', other);
+            if (b) b.setAttribute('aria-expanded', 'false');
+          }
+        });
+        btn.setAttribute('aria-expanded', String(!open));
+        item.classList.toggle('is-open', !open);
+      });
+    });
+  };
+
+  /* ---------- 6. Retour tactile sur les boutons d'urgence ---------- */
+  const initHaptics = () => {
+    $$('[data-haptic]').forEach((el) => {
+      el.addEventListener('pointerdown', () => {
+        el.classList.add('is-pressed');
+        haptic(10);
+      }, { passive: true });
+      const release = () => el.classList.remove('is-pressed');
+      el.addEventListener('pointerup', release, { passive: true });
+      el.addEventListener('pointerleave', release, { passive: true });
+      el.addEventListener('pointercancel', release, { passive: true });
+    });
+  };
+
+  /* ---------- 7. Boutons « Envoyer ma position WhatsApp » rapides ---------- */
+  const quickMessage = (pos) => {
+    const lines = ['🚨 *DEMANDE DE DÉPANNAGE URGENT*', ''];
+    if (pos) {
+      const base = nearestBase(pos);
+      lines.push(`📍 *Ma position :* ${mapsLink(pos)}`);
+      if (pos.accuracy) lines.push(`🎯 Précision : ±${pos.accuracy} m`);
+      if (base) lines.push(`🏁 Base la plus proche (estimation) : ${base.name}`);
+    } else {
+      lines.push('📍 *Ma position :* (je vous l\'envoie / je vous la décris)');
+    }
+    lines.push('', 'Merci de m\'envoyer une dépanneuse au plus vite.');
+    return lines.join('\n');
+  };
+
+  const initQuickWhatsApp = () => {
+    let busy = false;
+    $$('[data-wa-geo]').forEach((link) => {
+      link.addEventListener('click', async (e) => {
+        if (!geoSupported()) return; // le lien par défaut (message pré-rempli) prend le relais
+        e.preventDefault();
+        if (busy) return;
+        busy = true;
+        haptic([10, 40, 10]);
+
+        // Desktop : pré-ouvre l'onglet pendant le geste utilisateur (anti pop-up blocker)
+        let pre = null;
+        if (!coarsePointer) {
+          pre = window.open('', '_blank');
+          if (pre) {
+            try {
+              pre.opener = null;
+              pre.document.title = 'Ouverture de WhatsApp…';
+            } catch (_) { /* cross-origin ignoré */ }
+          }
+        }
+
+        toast('📍 Localisation en cours…', CONFIG.geoTimeout);
+        let pos = null;
+        try {
+          pos = await getPosition(6000);
+          toast('✅ Position trouvée, ouverture de WhatsApp…');
+        } catch (err) {
+          toast('Position non disponible : WhatsApp s\'ouvre sans GPS.');
+        }
+        openWhatsApp(quickMessage(pos), pre);
+        busy = false;
+      });
+    });
+  };
+
+  /* ---------- 8. Générateur SOS WhatsApp ---------- */
+  const initGenerator = () => {
+    const form = $('#sos-form');
+    const preview = $('#sos-preview');
+    const sendBtn = $('#sos-send');
+    const gpsBtn = $('#gps-btn');
+    const gpsStatus = $('#gps-status');
+    if (!form || !preview || !sendBtn) return;
+
+    const state = { position: null, base: null };
+
+    const getValue = (name) => {
+      const checked = form.querySelector(`input[name="${name}"]:checked`);
+      return checked ? checked.value : '';
+    };
+
+    const collect = () => ({
+      zone: getValue('zone'),
+      vehicule: getValue('vehicule'),
+      probleme: getValue('probleme'),
+      details: (form.elements.details && form.elements.details.value.trim()) || ''
+    });
+
+    const zoneText = (d) => {
+      if (d.zone) return d.zone;
+      if (state.base) return `${state.base.zone} (détectée par GPS)`;
+      return '';
+    };
+
+    /** Message final envoyé (texte brut WhatsApp, gras via *astérisques*) */
+    const buildMessage = (d) => {
+      const lines = ['🚨 *DEMANDE DE DÉPANNAGE URGENT*', ''];
+      lines.push(`📍 *Zone :* ${zoneText(d) || 'À préciser'}`);
+      if (state.position) {
+        lines.push(`🗺️ *Ma position exacte :* ${mapsLink(state.position)}`);
+        if (state.position.accuracy) lines.push(`🎯 Précision : ±${state.position.accuracy} m`);
+      }
+      lines.push(`🚗 *Véhicule :* ${d.vehicule || 'À préciser'}`);
+      lines.push(`⚠️ *Problème :* ${d.probleme || 'À préciser'}`);
+      if (d.details) lines.push(`📝 *Précisions :* ${d.details}`);
+      lines.push('', 'Merci de m\'envoyer la dépanneuse la plus proche.');
+      return lines.join('\n');
+    };
+
+    /** Aperçu HTML (échappé) du même message */
+    const renderPreview = () => {
+      const d = collect();
+      const missing = '<span class="is-missing">à sélectionner</span>';
+      const zone = zoneText(d);
+      const rows = [
+        '🚨 <b>DEMANDE DE DÉPANNAGE URGENT</b>',
+        '',
+        `📍 <b>Zone :</b> ${zone ? escapeHTML(zone) : missing}`
+      ];
+      if (state.position) {
+        rows.push(`🗺️ <b>Position :</b> ${escapeHTML(mapsLink(state.position))}`);
+      }
+      rows.push(`🚗 <b>Véhicule :</b> ${d.vehicule ? escapeHTML(d.vehicule) : missing}`);
+      rows.push(`⚠️ <b>Problème :</b> ${d.probleme ? escapeHTML(d.probleme) : missing}`);
+      if (d.details) rows.push(`📝 <b>Précisions :</b> ${escapeHTML(d.details)}`);
+      rows.push('', 'Merci de m\'envoyer la dépanneuse la plus proche.');
+      preview.innerHTML = rows.join('\n');
+    };
+
+    const setStatus = (msg, type = '') => {
+      if (!gpsStatus) return;
+      gpsStatus.textContent = msg;
+      gpsStatus.className = `gps-status${type ? ` is-${type}` : ''}`;
+    };
+
+    // Détection GPS
+    if (gpsBtn) {
+      const label = $('.gps-btn__label', gpsBtn);
+      if (!geoSupported()) {
+        gpsBtn.hidden = true;
+      }
+      gpsBtn.addEventListener('click', async () => {
+        if (gpsBtn.classList.contains('is-loading')) return;
+        gpsBtn.classList.remove('is-done');
+        gpsBtn.classList.add('is-loading');
+        gpsBtn.setAttribute('aria-busy', 'true');
+        if (label) label.textContent = 'Localisation en cours…';
+        setStatus('');
+
+        try {
+          const pos = await getPosition();
+          state.position = pos;
+          state.base = nearestBase(pos);
+          gpsBtn.classList.add('is-done');
+          if (label) label.textContent = 'Position GPS capturée ✓';
+          const km = state.base.km < 1 ? 'moins de 1 km' : `~${state.base.km.toFixed(1).replace('.', ',')} km`;
+          const acc = pos.accuracy ? `Précision ±${pos.accuracy} m · ` : '';
+          setStatus(`${acc}Base la plus proche : ${state.base.name} (${km} à vol d'oiseau)`, 'ok');
+
+          // Pré-sélectionne la zone détectée si aucune n'est choisie
+          if (!getValue('zone')) {
+            const radio = form.querySelector(`input[name="zone"][value="${state.base.zone}"]`);
+            if (radio) radio.checked = true;
+          }
+          haptic([10, 30, 10]);
+        } catch (err) {
+          state.position = null;
+          state.base = null;
+          if (label) label.textContent = 'Réessayer la détection GPS';
+          setStatus(geoErrorMessage(err), 'error');
+        } finally {
+          gpsBtn.classList.remove('is-loading');
+          gpsBtn.removeAttribute('aria-busy');
+          renderPreview();
+        }
+      });
+    }
+
+    form.addEventListener('change', renderPreview);
+    form.addEventListener('input', renderPreview);
+    form.addEventListener('submit', (e) => e.preventDefault());
+
+    sendBtn.addEventListener('click', () => {
+      const d = collect();
+      if (!zoneText(d) && !state.position) {
+        toast('Indiquez votre zone ou activez le GPS pour qu\'on vous trouve vite.');
+        const first = form.querySelector('input[name="zone"]');
+        if (gpsBtn && !gpsBtn.hidden) gpsBtn.focus();
+        else if (first) first.focus();
+        haptic([20, 60, 20]);
+        return;
+      }
+      haptic([10, 40, 10]);
+      openWhatsApp(buildMessage(d));
+    });
+
+    renderPreview();
+  };
+
+  /* ---------- 9. Boutons flottants desktop ---------- */
+  const initFab = () => {
+    const fab = $('#fab');
+    const hero = $('#accueil');
+    if (!fab || !hero) return;
+    const links = $$('a', fab);
+    const setVisible = (visible) => {
+      fab.classList.toggle('is-visible', visible);
+      links.forEach((a) => a.setAttribute('tabindex', visible ? '0' : '-1'));
+    };
+    if (!hasIO) { setVisible(true); return; }
+    new IntersectionObserver(([entry]) => setVisible(!entry.isIntersecting), { threshold: 0.05 })
+      .observe(hero);
+  };
+
+  /* ---------- Initialisation ---------- */
+  const init = () => {
+    initYear();
+    initHeader();
+    initReveal();
+    initCounters();
+    initFaq();
+    initHaptics();
+    initQuickWhatsApp();
+    initGenerator();
+    initFab();
+  };
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init, { once: true });
+  } else {
+    init();
+  }
+})();
+
+  </script>
+</body>
+</html>
